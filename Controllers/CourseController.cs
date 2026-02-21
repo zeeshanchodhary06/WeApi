@@ -12,7 +12,7 @@ namespace WebApi.Controllers
     [Authorize(AuthenticationSchemes = "BasicAuthentication")]
     public class CourseController : ControllerBase
     {
-
+        // handle course details
         private readonly ICourseService _courseService;
         public CourseController (ICourseService courseService)
         {
